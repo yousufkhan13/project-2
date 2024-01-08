@@ -6,8 +6,12 @@ void main() {
       print("username is wrong");
     } else if (password != "saylani123") {
       print("password is wrong");
+    } else if (password == "saylani123" && username == "yousufkhan13") {
+      print("correct credentials");
     } else {
       print("username and password both are wrong");
     }
+  } else {
+    print("re-enter your credentials");
   }
 }
